@@ -1,0 +1,223 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(27, 27, 27);
+    border: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden ;
+}
+header{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.356);
+    height: 10vh;
+    width: 100%;
+    z-index: 100;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.header-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 6rem;
+    align-items: center;
+}
+.header-content i{
+    color: #a5b6ef;
+}
+.header-content .logo{
+    font-size: 2rem;
+}
+.header-content .menu{
+    font-size: 1rem;
+}
+.header-content ul{
+    display: flex;
+    align-items: center;
+}
+.header-content ul li{
+    padding: 0 1.3rem;
+}
+.header-content a{
+    transition: .3s;
+}
+.header-content a:hover{
+    color: rgb(52, 52, 209);
+}
+.sessao-banner{
+    background-color: #f7f7f7f0;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-banner{
+    height: 100%;
+    width: 100%;
+}
+.img-banner img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.title-banner{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 28%;
+    width: 40%;
+}
+.title-banner h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.title-banner h3{
+    color: #d86b7d;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.title-banner p{
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+}
+.bnt{
+    background-color: #d86b7d;
+    color: white;
+    border-radius: 3px;
+    height: 2.2rem;
+    width: 7rem;
+    transition: .3s;
+    cursor: pointer;
+}
+.bnt:hover{
+    background-color: #a1525f;
+}
+.title-banner .button-banner2{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(128, 128, 128);
+}
+.title-banner .button-banner2:hover{
+    background-color: rgb(206, 198, 198) ;
+    border: none;
+}
+.redes-sociais{
+    position: absolute;
+    right: 4.5rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 20rem;
+}
+.medias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.medias i{
+    background-color: #d86b7d;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+    border-radius: 10px;
+    text-align:center;
+    font-size: 2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+.medias i:hover{
+    background-color: #a1525f ;
+}
+.sessao-conhecimentos{
+    height: 50vh;
+    width: 100%;
+    margin: 2rem 0;
+}
+.title-section{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.conhecimentos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conhecimento{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+.conhecimento h1{
+    margin: .5rem 0;
+}
+.conhecimento i{
+    margin: .5rem 0;
+    font-size: 2rem;
+    color: #d192f7;
+}
+/**/
+.sessao-artes{
+    padding-top: 4.5rem;
+    width: 100%;
+    height: 150%;
+}
+.artes{
+    height: 100%;
+    width: 100%;
+}
+.arte{
+    margin: 0% auto;
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+.img-arte{
+    width: 100%;
+    height: 100%;
+}
+.img-arte img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.arte:nth-child(1){
+    display: flex;
+}
+.arte:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+}
+.arte:nth-child(3){
+    display: flex;
+}
+.arte:nth-child(4){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
